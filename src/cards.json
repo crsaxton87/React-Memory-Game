@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Amethyst",
+    "image": "/assets/images/cards/amethyst.png"
+  },
+  {
+    "id": 2,
+    "name": "Bismuth",
+    "image": "/assets/images/cards/bismuth.png"
+  },
+  {
+    "id": 3,
+    "name": "Garnet",
+    "image": "/assets/images/cards/garnet.png"
+  },
+  {
+    "id": 4,
+    "name": "Greg",
+    "image": "/assets/images/cards/greg.png"
+  },
+  {
+    "id": 5,
+    "name": "Lapis Lazuli",
+    "image": "/assets/images/cards/lapis.png"
+  },
+  {
+    "id": 6,
+    "name": "Lion",
+    "image": "/assets/images/cards/lion.png"
+  },
+  {
+    "id": 7,
+    "name": "Onion",
+    "image": "/assets/images/cards/onion.png"
+  },
+  {
+    "id": 8,
+    "name": "Pearl",
+    "image": "/assets/images/cards/pearl.png"
+  },
+  {
+    "id": 9,
+    "name": "Peridot",
+    "image": "/assets/images/cards/peridot.png"
+  },
+  {
+    "id": 10,
+    "name": "Pumpkin",
+    "image": "/assets/images/cards/pumpkin.png"
+  },
+  {
+    "id": 11,
+    "name": "Rose Quartz",
+    "image": "/assets/images/cards/rose.png"
+  },
+  {
+    "id": 12,
+    "name": "Steven",
+    "image": "/assets/images/cards/steven.png"
+  },
+  {
+    "id": 13,
+    "name": "Ruby",
+    "image": "/assets/images/cards/ruby.png"
+  },
+  {
+    "id": 14,
+    "name": "Sapphire",
+    "image": "/assets/images/cards/sapphire.png"
+  },
+  {
+    "id": 15,
+    "name": "White Diamond",
+    "image": "/assets/images/cards/whited.png"
+  },
+  {
+    "id": 16,
+    "name": "Pink Diamond",
+    "image": "/assets/images/cards/pinkd.png"
+  },
+  {
+    "id": 17,
+    "name": "Blue Diamond",
+    "image": "/assets/images/cards/blued.png"
+  },
+  {
+    "id": 18,
+    "name": "Yellow Diamond",
+    "image": "/assets/images/cards/yellowd.png"
+  }
+]

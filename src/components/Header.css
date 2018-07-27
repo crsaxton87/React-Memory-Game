@@ -1,0 +1,106 @@
+.brand {
+    height: 50px;
+    margin: 0 20px 0 0;
+    border-radius: 10px;
+    float: left;
+}
+
+.header {
+    background-color: #f5f2a8;
+}
+
+.nav-item {
+    font-family: 'SU';
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ff6070;
+
+} 
+
+#navLeft {
+    text-align: left;
+}
+
+#navLeft span {
+    font-size: 1.1em;
+    font-size: 1.1vw;
+}
+
+#navCenter {
+    text-align: center;
+}
+
+#navCenter span {
+    font-size: 1.2em;
+    font-size: 1.2vw;
+}
+
+#navRight {
+    text-align: right;
+}
+
+#navRight span {
+    font-size: 1.3em;
+    font-size: 1.3vw;
+}
+
+/*==================================================
+=                  Media Queries                   =
+==================================================*/
+
+@media only screen and (max-width : 980px) {
+
+    #navLeft span {
+    font-size: .8em;
+    }
+} 
+
+@media only screen and (max-width : 885px) {
+    .brand {
+        height: 75px;
+    }
+
+    #navLeft span {
+        font-size: .9em;
+    }
+
+    #navCenter span {
+        font-size: .8em;
+    }
+
+    #navRight span {
+        font-size: .6em;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .brand {
+        display: none;
+    }
+
+    #navLeft {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #navLeft span {
+        font-size: 2em;
+    }
+
+    #navCenter {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #navCenter span {
+        font-size: 1em;
+    }
+
+    #navRight {
+        text-align: center;
+    }
+
+    #navRight span {
+        font-size: 1em;
+    }
+}

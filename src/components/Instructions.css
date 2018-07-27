@@ -1,0 +1,58 @@
+.instructions {
+    background: #9c8fc5;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.instructions p {
+    font-family: 'SU';
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 1.2vw;
+}
+
+/*==================================================
+=                  Media Queries                   =
+==================================================*/
+
+
+@media only screen and (max-width : 767px) {
+    .instructions {
+        height: 70px;
+        line-height: 35px;
+    }
+    .instructions p {
+        font-size: 1em;
+    }
+} 
+
+@media only screen and (max-width : 550px) {
+    .instructions {
+        height: 55px;
+        line-height: 27px;
+    }
+    .instructions p {
+        font-size: .8em;
+    }
+} 
+
+@media only screen and (max-width : 470px) {
+    .instructions {
+        height: 45px;
+        line-height: 22px;
+    }
+    .instructions p {
+        font-size: .6em;
+    }
+} 
+
+@media only screen and (max-width : 386px) {
+    .instructions {
+        height: 75px;
+        line-height: 22px;
+    }
+    .instructions p {
+        font-size: .6em;
+    }
+} 

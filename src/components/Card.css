@@ -1,0 +1,85 @@
+img.img-thumbnail:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22);
+    -webkit-transition: .1s;
+    -o-transition: .1s;
+    transition: .1s;
+}
+
+img.img-thumbnail {
+    margin: 10px;
+}
+
+.gameCard {
+    float: left;
+}
+
+.shake {
+    -webkit-animation: shake .5s .0125s;
+    animation: shake .5s .0125s
+}
+
+@-webkit-keyframes shake {
+    0%,to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+
+    12.5%,37.5%,62.5%,87.5% {
+        -webkit-transform: translate(-10px);
+        transform: translate(-10px)
+    }
+
+    25%,50%,75% {
+        -webkit-transform: translate(10px);
+        transform: translate(10px)
+    }
+}
+
+@keyframes shake {
+    0%,to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+
+    12.5%,37.5%,62.5%,87.5% {
+        -webkit-transform: translate(-10px);
+        transform: translate(-10px)
+    }
+
+    25%,50%,75% {
+        -webkit-transform: translate(10px);
+        transform: translate(10px)
+    }
+}
+
+/*==================================================
+=                  Media Queries                   =
+==================================================*/
+
+@media only screen and (max-width : 980px) {
+    img.img-thumbnail {
+        width: 150px;
+    }
+} 
+
+@media only screen and (max-width : 577px) {
+    img.img-thumbnail {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width : 450px) {
+    img.img-thumbnail {
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width : 350px) {
+    img.img-thumbnail {
+        width: 70px;
+    }
+}
