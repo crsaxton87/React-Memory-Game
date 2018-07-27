@@ -1,4 +1,4 @@
-# Steven Universe React Clicky Game
+# Steven Universe React Memory Game
 
 ![Clicky Game Screenshot](./screenshot.png)
 
